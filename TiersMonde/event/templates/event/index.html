@@ -14,7 +14,7 @@
 
 <body>
     <div class="header_container">
-        <img class="logo" src="{% static 'event/images/logo_tiers_monde.png' %}">
+        <img class="logo" src="{% static 'event/images/logo.png' %}">
         <nav>
             <div class="left">
                 <ul>
@@ -40,8 +40,7 @@
 
     {% block contenue %}
         <div class="title_container">
-            <h1>Zenith du Tiers Monde</h1>
-            <p>Adrar Project by San Gokool, A©e, Mojo-Jojo and Kheandee.</p>
+            <h1>Les copeaux de la montagne noire</h1>
             <div class="boutonIndex">
                 <a href="#programmation" class="fancy-btn">Programmation</a><br>
             </div>
@@ -116,34 +115,13 @@
         <p>Pas d'évènements disponible</p>
     {% endif %}
 
-    <!-- --------------------QUOTE --------------------------->
-    <h2 class="title2">Avis</h2>
-    <div class="blockquote-wrapper">
-        <div class="blockquote">
-            <h1>
-                Aussi bon qu'un<span style="color:#ffffff"> Balisto !</span>
-            </h1>
-            <h4>&mdash;Maxime Pryzbylo<br><em>Critique de renommée international</em></h4>
-        </div>
-        <div class="blockquote">
-            <h1>
-                Une organisation digne des meilleurs <span style="color:#ffffff"> MCD - MLD que je n'ai jamais connu !</span>
-            </h1>
-            <h4>&mdash;Florence Calmettes<br><em>Directrice régional du théatre Adrar</em></h4>
-        </div>
-        <div class="blockquote">
-            <h1>
-                Comme vous le savez <span style="color:#ffffff"> même en asynchrone, un show que je recommande absolument !</span>
-            </h1>
-            <h4>&mdash;Laurence Collot<br><em>Responsable artistique</em></h4>
-        </div>
-    </div>
+
     {% endblock %}
 
     <!-- Site footer -->
     <footer class="footer-distributed">
         <div class="footer-left">
-            <img class="logo" src="{% static 'event/images/logo_tiers_monde.png' %}">
+            <img class="logo" src="{% static 'event/images/logo.png' %}">
             <p class="footer-links">
                 <a href="{% url 'event:index' %}" class="link-1">Accueil</a>
                 <a href="{% url 'event:informations' %}">Informations</a>
