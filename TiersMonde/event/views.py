@@ -1,4 +1,4 @@
-from multiprocessing import Event, context
+from multiprocessing import *
 from django.shortcuts import render, get_object_or_404
 from . models import Events , Users, Achat
 from django.contrib.auth import authenticate, login , logout
