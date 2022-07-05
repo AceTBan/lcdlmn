@@ -18,10 +18,10 @@
         <nav>
             <div class="left">
                 <ul>
-                    <li><a href="{% url 'event:index' %}">Accueil</a></li>
-                    <li><a href="{% url 'event:informations' %}">Informations</a></li>
-                    <li><a href="{% url 'event:liste' %}">galerie</a></li>
-                    <li><a href="{% url 'event:contact' %}">contact</a></li>
+                    <li><a href="{% url 'event:index' %}">ACCEUIL</a></li>
+                    <li><a href="{% url 'event:informations' %}">À PROPOS</a></li>
+                    <li><a href="{% url 'event:liste' %}">GALERIE</a></li>
+                    <li><a href="{% url 'event:contact' %}">CONTACT</a></li>
                 </ul>
             </div>
             <div class="right">
@@ -48,8 +48,6 @@
 
         <div id="stripped">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1062">
-                <polyline points="0,154 131,0 0,348 269,0 0,562 437,0 
-                0,766 565,14 0,1062 719,0 289,1062 843,0 543,1062 995,0 729,1062 1161,0 947,1062 1307,0 1143,1062 1500,162 1299,1062 1500,830"/>
             </svg>
         </div>
 
@@ -109,7 +107,7 @@
         <div class="footer-right">
         <p class="footer-company-about">
             <h2 class="title_footer">A propos</h2>
-            <p>Designed by</p>
+            <img class="logo" src="{% static 'event/images/zero.png' %}">
         </p>
         <div class="footer-icons">
             <a href="https://www.facebook.com/xaillequentin/"><i class="fa fa-facebook"></i></a>

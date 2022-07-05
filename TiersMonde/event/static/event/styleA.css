@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image:url(./images/nick-nice-dfvyCHzbA5g-unsplash.jpg);
+    background-color: #140e1c;
     background-position: center;
     background-size: cover;
     /* background-repeat: no-repeat; */
@@ -56,14 +56,14 @@ nav li{
 }
 
 nav li a {
-    color: #fff;
+    color: #140e1c;
     text-decoration: none;
 }
 
 nav li a:hover{
     cursor: pointer;
     transition: all ease-in-out 0.6s;
-    border: #fff solid 0.8px;
+    border: rgb(14, 1, 1) solid 0.8px;
     padding: 10px;
 }
 
@@ -191,20 +191,7 @@ div#stripped {
     margin-top: -120px;
 }
 
-div#stripped svg {
-    background: #000;
-    mix-blend-mode: darken;
-}
 
-div#stripped svg polyline {
-    height: 100vh;
-    fill: none;
-    stroke: rgba(43, 255, 0, 0.7);
-    stroke-width: 160;
-    stroke-dasharray: 20000;
-    stroke-dashoffset: 20000;
-    animation: scribble 4s ease-in-out forwards;
-}
 
 /* Animation du scribble */
 @keyframes scribble {
@@ -742,27 +729,16 @@ div#stripped svg polyline {
 div#stripped2 {
     max-width: 800px;
     margin: 0 auto;
-    background: #000;
+    background: rgba(0, 0, 0, 0);
     background-image: url('images/quentin xaille.jpg');
     background-size: cover;
     background-position: center;
     font-size: 0;
 }
 
-div#stripped2 svg {
-    background: #000;
-    mix-blend-mode: darken;
-}
 
-div#stripped2 svg polyline {
-    height: 100vh;
-    fill: none;
-    stroke: #f00;
-    stroke-width: 180;
-    stroke-dasharray: 20000;
-    stroke-dashoffset: 20000;
-    animation: scribble 4s linear forwards;
-}
+
+
 
 /* ---------------------------CONTACT FORM--------------------- */
 
