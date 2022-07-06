@@ -13,12 +13,11 @@
                 {% if artist.pics_artist %}
                     <div class="div_img_artist_detail">
                         <img class="img_artist_detail" src="{{ artist.pics_artist.url }}">
-                        <p class="p_detail">{{ artist.name_artist }}</p>
                     </div>
                 {% endif %} 
             {% endfor %}
             </div>
-            <a class="fancy-btn" href="{% url 'event:index' %}">Accueil</a>
+            <a class="fancy-btn" href="{% url 'event:liste' %}">Retour</a>
         </div>
     </div>
     {% endfor %}

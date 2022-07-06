@@ -17,12 +17,9 @@
         {% endif %}
         {% endfor %}
         <div class="news-card__text-wrapper">
-            <h3 class="news-card__title">{{ event.name_event }}</h3><br>
-            {% language 'fr' %}
-            <div class="news-card__post-date">Du {{ event.begin_date|date:'d F Y' }} au {{ event.end_date|date:'d F Y' }}</div><br>
-            {% endlanguage %}
+            <h3 class="news-card__title">{{ event.name_event }}</h3><br><!-- affiche le titre de l'image -->
             <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">{{ event.description_event }}&hellip;</p>
+                <p class="news-card__excerpt">{{ event.description_event }}&hellip;</p><!-- affiche la description de l'image -->
                 <div class="boutonIndex">
                     <a href="{% url 'event:detail' event.id %}" class="fancy-btn">Informations/Réservations</a><br>
                 </div>     
